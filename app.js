@@ -12,4 +12,4 @@ app.get('/about', (req, res) => {
   res.render('about');
 });
 
-app.listen(8080, 'localhost');
+app.listen(process.env.PORT, process.env.IP);
